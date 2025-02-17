@@ -13,8 +13,3 @@
     --foreground: #ededed;
   }
 }
-
-/* Adds a Transition for both light modes */
-body {
-  @apply transition-colors duration-300;
-}
