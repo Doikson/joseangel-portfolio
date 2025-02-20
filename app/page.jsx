@@ -1,60 +1,54 @@
-import { FaReact, FaNodeJs, FaLinux, FaGithub } from "react-icons/fa";
-import { SiTypescript, SiPython, SiCplusplus, SiNextdotjs, SiJavascript, SiMysql, SiSap, SiCisco } from "react-icons/si";
+import { FaReact, FaNodeJs, FaLinux, FaGithub, FaGitAlt, FaWindows } from "react-icons/fa";
+import { SiTypescript, SiPython, SiCplusplus, SiNextdotjs, SiJavascript, SiMysql, SiCisco, SiTailwindcss, SiExpress, SiMongodb } from "react-icons/si";
 import { DiDatabase, DiPostgresql } from "react-icons/di";
+import { BsTerminalFill } from "react-icons/bs";
+import { SiApple } from "react-icons/si";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8">
       <h1 className="text-4xl font-bold text-black mb-4">Welcome to My Portfolio</h1>
-      
-      <p className="text-lg text-gray-700 text-center max-w-2xl">
-        Hi, I'm <span className="font-semibold text-black">Jose Angel Cortes Baillet</span>, a Computer Systems Engineering student passionate about <span className="font-semibold text-black">cybersecurity</span>, <span className="font-semibold text-black">software development</span>, and <span className="font-semibold text-black">Linux</span>. I build scalable applications using <span className="font-semibold text-black">React.js</span> and enjoy solving complex tech challenges.
-      </p>
-      <div className="flex flex-wrap justify-center gap-4 mt-6">
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <FaReact /> React.js
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiTypescript /> TypeScript
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiPython /> Python
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiCplusplus /> C++
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <FaLinux /> Linux
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiNextdotjs /> Next.js
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <FaNodeJs /> Node.js
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiJavascript /> JavaScript
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiMysql /> MySQL
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <DiDatabase /> SQL Server
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <DiPostgresql /> PostgreSQL
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiSap /> SAP
-  </span>
-  <span className="flex items-center gap-2 px-4 py-2 bg-black bg-opacity-70 text-white rounded-lg text-2xl">
-    <SiCisco /> Cisco
-  </span>
-</div>
 
+      <p className="text-lg text-gray-700 text-center max-w-2xl">
+        I'm <span className="font-semibold text-black">Jose Angel Cortes Baillet</span>, a Computer Systems Engineering student with a strong focus on <span className="font-semibold text-black">cybersecurity</span>, <span className="font-semibold text-black">software development</span>, and <span className="font-semibold text-black">Linux</span>. I work on both <span className="font-semibold text-black">front-end</span> and <span className="font-semibold text-black">back-end</span> development, building efficient and scalable applications while solving complex technical challenges.
+      </p>
+
+      {/* Contenedor del rectángulo con hover aplicado al contenedor completo */}
+      <div className="bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6 mt-6 w-full max-w-3xl hover:scale-105 transition-transform duration-300">
+        <div className="flex flex-wrap justify-center gap-3">
+          {[
+            { icon: <FaReact />, name: "React.js" },
+            { icon: <SiNextdotjs />, name: "Next.js" },
+            { icon: <SiTypescript />, name: "TypeScript" },
+            { icon: <SiJavascript />, name: "JavaScript" },
+            { icon: <SiCplusplus />, name: "C++" },
+            { icon: <FaNodeJs />, name: "Node.js" },
+            { icon: <SiExpress />, name: "Express.js" },
+            { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+            { icon: <SiPython />, name: "Python" },
+            { icon: <FaWindows />, name: "Windows" },
+            { icon: <SiApple />, name: "macOS" },
+            { icon: <FaLinux />, name: "Linux" },
+            { icon: <BsTerminalFill />, name: "Bash" },
+            { icon: <FaGitAlt />, name: "Git" },
+            { icon: <SiMysql />, name: "MySQL" },
+            { icon: <DiDatabase />, name: "SQL Server" },
+            { icon: <DiPostgresql />, name: "PostgreSQL" },
+            { icon: <SiMongodb />, name: "MongoDB" },
+            { icon: <SiCisco />, name: "Cisco" },
+          ].map((tech, index) => (
+            <span
+              key={index}
+              className="flex items-center gap-1 px-3 py-2 bg-gray-800 rounded-lg text-xl"
+            >
+              {tech.icon} {tech.name}
+            </span>
+          ))}
+        </div>
+      </div>
 
       <div className="flex gap-4 mt-6">
-        <a 
+        <a
           href="https://github.com/Doikson"
           target="_blank"
           rel="noopener noreferrer"
@@ -62,8 +56,8 @@ export default function Home() {
         >
           <FaGithub className="text-2xl" /> View my GitHub
         </a>
-        
-        <a 
+
+        <a
           href="/Resume_JoseAngel.pdf"
           download
           className="px-6 py-3 bg-gray-500 text-white rounded-lg text-lg font-semibold hover:scale-105 transition flex items-center gap-2"
