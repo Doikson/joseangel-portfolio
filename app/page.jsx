@@ -7,10 +7,10 @@ import { SiApple } from "react-icons/si";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8">
-      <h1 className="text-4xl font-bold text-black mb-4 z-10">Welcome to My Portfolio</h1>
+      <h1 className="text-4xl font-bold text-white mb-4 z-10">Welcome to My Portfolio</h1>
 
       <p className="text-lg text-white text-center max-w-2xl z-10">
-        I'm <span className="font-semibold text-black">Jose Angel Cortes Baillet</span>, a Computer Systems Engineering student with a strong focus on <span className="font-semibold text-black">cybersecurity</span>, <span className="font-semibold text-black">software development</span>, and <span className="font-semibold text-black">Linux</span>. I work on both <span className="font-semibold text-black">front-end</span> and <span className="font-semibold text-black">back-end</span> development, building efficient and scalable applications while solving complex technical challenges.
+        I'm <span className="font-semibold text-blue-900">Jose Angel Cortes Baillet</span>, a Computer Systems Engineering student with a strong focus on <span className="font-semibold text-blue-900">cybersecurity</span>, <span className="font-semibold text-blue-900">software development</span>, and <span className="font-semibold text-blue-900">Linux</span>. I work on both <span className="font-semibold text-blue-900">front-end</span> and <span className="font-semibold text-blue-900">back-end</span> development, building efficient and scalable applications while solving complex technical challenges.
       </p>
 
       {/* Contenedor del rectángulo con hover aplicado al contenedor completo */}
