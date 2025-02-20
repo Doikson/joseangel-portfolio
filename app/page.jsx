@@ -7,15 +7,15 @@ import { SiApple } from "react-icons/si";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8">
-      <h1 className="text-4xl font-bold text-black mb-4">Welcome to My Portfolio</h1>
+      <h1 className="text-4xl font-bold text-black mb-4 z-10">Welcome to My Portfolio</h1>
 
-      <p className="text-lg text-gray-700 text-center max-w-2xl">
+      <p className="text-lg text-white text-center max-w-2xl z-10">
         I'm <span className="font-semibold text-black">Jose Angel Cortes Baillet</span>, a Computer Systems Engineering student with a strong focus on <span className="font-semibold text-black">cybersecurity</span>, <span className="font-semibold text-black">software development</span>, and <span className="font-semibold text-black">Linux</span>. I work on both <span className="font-semibold text-black">front-end</span> and <span className="font-semibold text-black">back-end</span> development, building efficient and scalable applications while solving complex technical challenges.
       </p>
 
       {/* Contenedor del rectángulo con hover aplicado al contenedor completo */}
-      <div className="bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6 mt-6 w-full max-w-3xl hover:scale-105 transition-transform duration-300">
-        <div className="flex flex-wrap justify-center gap-3">
+      <div className="bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6 mt-6 w-full max-w-3xl hover:scale-105 transition-transform duration-300 relative">
+        <div className="flex flex-wrap justify-center gap-3 z-10">
           {[
             { icon: <FaReact />, name: "React.js" },
             { icon: <SiNextdotjs />, name: "Next.js" },
@@ -45,9 +45,10 @@ export default function Home() {
             </span>
           ))}
         </div>
+        {/* Box-shadow blur effect */}
       </div>
 
-      <div className="flex gap-4 mt-6">
+      <div className="flex gap-4 mt-6 z-10">
         <a
           href="https://github.com/Doikson"
           target="_blank"
