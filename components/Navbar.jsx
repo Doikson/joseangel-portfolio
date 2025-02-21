@@ -55,7 +55,7 @@ const Navbar = () => {
           </li>
           <li className="p-4">
             <a
-              href="https://github.com/Doikson/joseangel-portfolio"
+              href="https://github.com/Doikson"
               target="_blank"
               rel="noopener noreferrer"
               className="transition duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
@@ -86,7 +86,7 @@ const Navbar = () => {
             </li>
             <li className="p-4">
               <a
-                href="https://github.com/Doikson/joseangel-portfolio"
+                href="https://github.com/Doikson"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition duration-300 ease-in-out hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
