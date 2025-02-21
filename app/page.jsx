@@ -79,9 +79,12 @@ export default function Home() {
         <RiScrollToBottomLine className="text-4xl text-white" />
       </div>
 
+      {/* Space between scroll down icon and animations */}
+      <div className="mt-96"></div>
+
       {/* Sections with Scroll Animations */}
       <ScrollAnimation animationClass="animate-slide">
-        <div className="mt-64 w-full max-w-3xl bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6">
+        <div className="mt-24 w-full max-w-3xl bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6">
           <h2 className="text-2xl font-bold mb-4">Book Recommendations</h2>
           <p className="text-lg mb-4">
             Reading has been an essential part of my personal and professional journey. Here are some of the books that have shaped my approach to personal development and life.
