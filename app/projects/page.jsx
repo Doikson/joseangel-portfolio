@@ -4,9 +4,9 @@ import { SiPandas } from "react-icons/si"; // Pandas icon from react-icons
 
 const Projects = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center gap-8 p-6 min-h-screen">
+    <div className="flex flex-wrap justify-center items-center gap-8 p-6 min-h-screen mt-24 animate-slide">
       {/* Project 1 - InstaFollowListPy */}
-      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
+      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300 ">
         <h2 className="text-2xl font-semibold mb-2 text-center">InstaFollowListPy</h2>
         <p className="mb-4 text-center flex-grow">
           Automation of Instagram follower extraction, reducing manual analysis time by 90% using the Pandas library.
