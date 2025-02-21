@@ -30,7 +30,7 @@ To get this project up and running locally, follow these steps:
 1. **Clone the repository**:
 
 ```bash
-   git clone https://github.com/your-username/react-portfolio.git
+   git clone https://github.com/Doikson/joseangel-portfolio
 ```
 2. **Install all other dependencies**:
 
