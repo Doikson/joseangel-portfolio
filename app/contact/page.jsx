@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 export default function ContactPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-6 z-10">
-      <div className="bg-black bg-opacity-55 p-8 rounded-2xl shadow-lg w-full max-w-lg z-10">
+      <div className="bg-black bg-opacity-55 p-8 rounded-2xl shadow-lg w-full max-w-lg z-10 animate-slide">
         <h2 className="text-3xl font-bold text-white text-center mb-6 z-10">Contact Me</h2>
         <form
           action="https://formspree.io/f/xgvoqwnj"
@@ -35,7 +35,7 @@ export default function ContactPage() {
           </button>
         </form>
       </div>
-      <div className="flex space-x-6 mt-6 text-white z-10">
+      <div className="flex space-x-6 mt-6 text-white z-10 animate-slide">
         <a
           href="https://github.com/Doikson"
           target="_blank"
