@@ -8,7 +8,7 @@ export default function Resume() {
 
         {/* Profile Section */}
         <div className="bg-black p-6 rounded-lg flex flex-col items-center text-center bg-opacity-55 z-10 space-y-6 animate-slide-right">
-          <img src="/pfp.jpg" alt="Profile" className="w-32 h-32 rounded-full border-4 border-green-700 mb-4 object-cover z-10" />
+          <img src="./pfp.jpg" alt="Profile" className="w-32 h-32 rounded-full border-4 border-green-700 mb-4 object-cover z-10" />
           <h2 className="text-2xl font-bold z-10">José Angel Cortés Baillet</h2>
           <span className="bg-green-700 text-sm px-4 py-1 rounded-full mt-2 z-10">Computer Systems Engineer</span>
           <div className="mt-4 text-sm space-y-1 z-10">
