@@ -3,6 +3,7 @@ import { SiTypescript, SiPython, SiCplusplus, SiNextdotjs, SiJavascript, SiMysql
 import { DiDatabase, DiPostgresql } from "react-icons/di";
 import { BsTerminalFill } from "react-icons/bs";
 import { SiApple } from "react-icons/si";
+import Link from "next/link"; // Importa el componente Link
 
 export default function Home() {
   return (
@@ -15,38 +16,40 @@ export default function Home() {
 
       {/* Contenedor del rectángulo con hover aplicado al contenedor completo */}
       <div className="bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6 mt-6 w-full max-w-3xl hover:scale-105 transition-transform duration-300 relative">
-        <div className="flex flex-wrap justify-center gap-3 z-10">
-          {[
-            { icon: <FaReact />, name: "React.js" },
-            { icon: <SiNextdotjs />, name: "Next.js" },
-            { icon: <SiTypescript />, name: "TypeScript" },
-            { icon: <SiJavascript />, name: "JavaScript" },
-            { icon: <SiCplusplus />, name: "C++" },
-            { icon: <FaNodeJs />, name: "Node.js" },
-            { icon: <SiExpress />, name: "Express.js" },
-            { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-            { icon: <SiPython />, name: "Python" },
-            { icon: <FaWindows />, name: "Windows" },
-            { icon: <SiApple />, name: "macOS" },
-            { icon: <FaLinux />, name: "Linux" },
-            { icon: <BsTerminalFill />, name: "Bash" },
-            { icon: <FaGitAlt />, name: "Git" },
-            { icon: <SiMysql />, name: "MySQL" },
-            { icon: <DiDatabase />, name: "SQL Server" },
-            { icon: <DiPostgresql />, name: "PostgreSQL" },
-            { icon: <SiMongodb />, name: "MongoDB" },
-            { icon: <SiCisco />, name: "Cisco" },
-          ].map((tech, index) => (
-            <span
-              key={index}
-              className="flex items-center gap-1 px-3 py-2 bg-gray-800 rounded-lg text-xl"
-            >
-              {tech.icon} {tech.name}
-            </span>
-          ))}
-        </div>
-        {/* Box-shadow blur effect */}
-      </div>
+  <div className="flex flex-wrap justify-center gap-3 z-10">
+    {[
+      { icon: <FaReact />, name: "React.js", url: "https://reactjs.org/" },
+      { icon: <SiNextdotjs />, name: "Next.js", url: "https://nextjs.org/" },
+      { icon: <SiTypescript />, name: "TypeScript", url: "https://www.typescriptlang.org/" },
+      { icon: <SiJavascript />, name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+      { icon: <SiCplusplus />, name: "C++", url: "https://en.cppreference.com/w/" },
+      { icon: <FaNodeJs />, name: "Node.js", url: "https://nodejs.org/" },
+      { icon: <SiExpress />, name: "Express.js", url: "https://expressjs.com/" },
+      { icon: <SiTailwindcss />, name: "Tailwind CSS", url: "https://tailwindcss.com/" },
+      { icon: <SiPython />, name: "Python", url: "https://www.python.org/" },
+      { icon: <FaWindows />, name: "Windows", url: "https://www.microsoft.com/en-us/windows" },
+      { icon: <SiApple />, name: "macOS", url: "https://www.apple.com/macos/" },
+      { icon: <FaLinux />, name: "Linux", url: "https://www.linux.org/" },
+      { icon: <BsTerminalFill />, name: "Bash", url: "https://www.gnu.org/software/bash/" },
+      { icon: <FaGitAlt />, name: "Git", url: "https://git-scm.com/" },
+      { icon: <SiMysql />, name: "MySQL", url: "https://www.mysql.com/" },
+      { icon: <DiDatabase />, name: "SQL Server", url: "https://www.microsoft.com/en-us/sql-server" },
+      { icon: <DiPostgresql />, name: "PostgreSQL", url: "https://www.postgresql.org/" },
+      { icon: <SiMongodb />, name: "MongoDB", url: "https://www.mongodb.com/" },
+      { icon: <SiCisco />, name: "Cisco", url: "https://www.cisco.com/" },
+    ].map((tech, index) => (
+      <Link
+        href={tech.url}
+        key={index}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-1 px-3 py-2 bg-gray-800 rounded-lg text-xl cursor-pointer"
+      >
+        {tech.icon} {tech.name}
+      </Link>
+    ))}
+  </div>
+</div>
 
       <div className="flex gap-4 mt-6 z-10">
         <a
