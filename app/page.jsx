@@ -1,9 +1,9 @@
 "use client";
-import { FaReact, FaNodeJs, FaLinux, FaGithub, FaGitAlt, FaWindows } from "react-icons/fa";
-import { SiTypescript, SiPython, SiCplusplus, SiNextdotjs, SiJavascript, SiMysql, SiCisco, SiTailwindcss, SiExpress, SiMongodb } from "react-icons/si";
-import { DiDatabase, DiPostgresql } from "react-icons/di";
-import { RiScrollToBottomLine } from "react-icons/ri";
+import { FaReact, FaNodeJs, FaGitAlt, FaLinux, FaWindows, FaPython, FaGithub} from "react-icons/fa";
+import { SiNextdotjs, SiTypescript, SiJavascript, SiCplusplus, SiExpress, SiTailwindcss, SiPython, SiMysql, SiMongodb, SiCisco, SiArchlinux, SiDebian, SiDocker, SiVirtualbox, SiWireshark, SiMetasploit, SiTensorflow, SiPandas, SiNumpy, SiScikitlearn, SiR } from "react-icons/si";
 import { BsTerminalFill } from "react-icons/bs";
+import { RiScrollToBottomLine } from "react-icons/ri";
+import { DiDatabase, DiPostgresql } from "react-icons/di";
 import { SiApple } from "react-icons/si";
 import Link from "next/link";
 import ScrollAnimation from '@/components/ScrollAnimation';
@@ -18,41 +18,52 @@ export default function Home() {
       </p>
 
       {/* Tech Stack Section */}
-      <div className="bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6 mt-6 w-full max-w-3xl hover:scale-105 transition-transform duration-300 relative">
-        <div className="flex flex-wrap justify-center gap-3 z-10">
-          {[
-            { icon: <FaReact />, name: "React.js", url: "https://reactjs.org/" },
-            { icon: <SiNextdotjs />, name: "Next.js", url: "https://nextjs.org/" },
-            { icon: <SiTypescript />, name: "TypeScript", url: "https://www.typescriptlang.org/" },
-            { icon: <SiJavascript />, name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-            { icon: <SiCplusplus />, name: "C++", url: "https://en.cppreference.com/w/" },
-            { icon: <FaNodeJs />, name: "Node.js", url: "https://nodejs.org/" },
-            { icon: <SiExpress />, name: "Express.js", url: "https://expressjs.com/" },
-            { icon: <SiTailwindcss />, name: "Tailwind CSS", url: "https://tailwindcss.com/" },
-            { icon: <SiPython />, name: "Python", url: "https://www.python.org/" },
-            { icon: <FaWindows />, name: "Windows", url: "https://www.microsoft.com/en-us/windows" },
-            { icon: <SiApple />, name: "macOS", url: "https://www.apple.com/macos/" },
-            { icon: <FaLinux />, name: "Linux", url: "https://www.linux.org/" },
-            { icon: <BsTerminalFill />, name: "Bash", url: "https://www.gnu.org/software/bash/" },
-            { icon: <FaGitAlt />, name: "Git", url: "https://git-scm.com/" },
-            { icon: <SiMysql />, name: "MySQL", url: "https://www.mysql.com/" },
-            { icon: <DiDatabase />, name: "SQL Server", url: "https://www.microsoft.com/en-us/sql-server" },
-            { icon: <DiPostgresql />, name: "PostgreSQL", url: "https://www.postgresql.org/" },
-            { icon: <SiMongodb />, name: "MongoDB", url: "https://www.mongodb.com/" },
-            { icon: <SiCisco />, name: "Cisco", url: "https://www.cisco.com/" },
-          ].map((tech, index) => (
-            <Link
-              href={tech.url}
-              key={index}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1 px-3 py-2 bg-gray-800 rounded-lg text-xl cursor-pointer"
-            >
-              {tech.icon} {tech.name}
-            </Link>
-          ))}
-        </div>
-      </div>
+<div className="bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6 mt-6 w-full max-w-3xl hover:scale-105 transition-transform duration-300 relative">
+  <div className="flex flex-wrap justify-center gap-3 z-10">
+    {[
+      { icon: <FaReact />, name: "React.js", url: "https://reactjs.org/" },
+      { icon: <SiNextdotjs />, name: "Next.js", url: "https://nextjs.org/" },
+      { icon: <SiTypescript />, name: "TypeScript", url: "https://www.typescriptlang.org/" },
+      { icon: <SiJavascript />, name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+      { icon: <SiCplusplus />, name: "C++", url: "https://en.cppreference.com/w/" },
+      { icon: <FaPython />, name: "Python", url: "https://www.python.org/" },
+      { icon: <FaNodeJs />, name: "Node.js", url: "https://nodejs.org/" },
+      { icon: <SiExpress />, name: "Express.js", url: "https://expressjs.com/" },
+      { icon: <SiTailwindcss />, name: "Tailwind CSS", url: "https://tailwindcss.com/" },
+      { icon: <FaGitAlt />, name: "Git", url: "https://git-scm.com/" },
+      { icon: <SiMysql />, name: "MySQL", url: "https://www.mysql.com/" },
+      { icon: <DiDatabase />, name: "SQL Server", url: "https://www.microsoft.com/en-us/sql-server" },
+      { icon: <DiPostgresql />, name: "PostgreSQL", url: "https://www.postgresql.org/" },
+      { icon: <SiMongodb />, name: "MongoDB", url: "https://www.mongodb.com/" },
+      { icon: <SiCisco />, name: "Cisco", url: "https://www.cisco.com/" },
+      { icon: <BsTerminalFill />, name: "Bash", url: "https://www.gnu.org/software/bash/" },
+      { icon: <FaLinux />, name: "Linux", url: "https://www.linux.org/" },
+      { icon: <FaWindows />, name: "Windows", url: "https://www.microsoft.com/en-us/windows" },
+      { icon: <SiApple />, name: "macOS", url: "https://www.apple.com/macos/" },
+      { icon: <SiArchlinux />, name: "Arch Linux", url: "https://archlinux.org/" },
+      { icon: <SiDebian />, name: "Debian", url: "https://www.debian.org/" },
+      { icon: <SiDocker />, name: "Docker", url: "https://www.docker.com/" },
+      { icon: <SiVirtualbox />, name: "VirtualBox", url: "https://www.virtualbox.org/" },
+      { icon: <SiWireshark />, name: "Wireshark", url: "https://www.wireshark.org/" },
+      { icon: <SiMetasploit />, name: "Metasploit", url: "https://www.metasploit.com/" },
+      { icon: <SiTensorflow />, name: "TensorFlow", url: "https://www.tensorflow.org/" },
+      { icon: <SiPandas />, name: "Pandas", url: "https://pandas.pydata.org/" },
+      { icon: <SiNumpy />, name: "NumPy", url: "https://numpy.org/" },
+      { icon: <SiScikitlearn />, name: "Scikit-learn", url: "https://scikit-learn.org/" },
+      { icon: <SiR />, name: "R", url: "https://www.r-project.org/" },
+    ].map((tech, index) => (
+      <Link
+        href={tech.url}
+        key={index}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-1 px-3 py-2 bg-gray-800 rounded-lg text-xl cursor-pointer"
+      >
+        {tech.icon} {tech.name}
+      </Link>
+    ))}
+  </div>
+</div>
 
       {/* Buttons Section */}
       <div className="flex gap-4 mt-6 z-10 mb-24">

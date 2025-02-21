@@ -44,14 +44,30 @@ export default function Resume() {
 
           {/* Education Section */}
           <div className="mt-6 z-10">
-            <h2 className="text-2xl font-semibold border-l-4 border-green-500 pl-4 z-10">Education</h2>
-            <div className="mt-3 text-sm space-y-2 z-10">
-              <p className="font-semibold text-lg z-10">Universidad Tecnológica de México</p>
-              <p className="italic z-10">Computer Systems Engineering (Estimated Graduation, Dec 2026)</p>
-              <p className="z-10"><strong>Focus:</strong> Programming / Cybersecurity / IT</p>
-              <p className="z-10"><strong>Relevant Subjects:</strong> Data Structures and Object-Oriented Programming (C++), Databases (SQL Server - Microsoft Access - SSMS), Network Support and Security, Network Protocols and Routing</p>
-            </div>
-          </div>
+  <h2 className="text-2xl font-semibold border-l-4 border-green-500 pl-4 z-10">
+    Education
+  </h2>
+  <div className="mt-3 text-sm space-y-2 z-10">
+    <p className="font-semibold text-lg z-10">Universidad Tecnológica de México</p>
+    <p className="italic z-10">
+      Computer Systems Engineering (Estimated Graduation, Dec 2026)
+    </p>
+    <p className="z-10">
+      <strong>Focus:</strong> Programming / Cybersecurity / IT
+    </p>
+    <p className="z-10">
+      <strong>Relevant Subjects:</strong> Data Structures and Object-Oriented Programming (C++), Databases (SQL Server - Microsoft Access - SSMS), Network Support and Security, Network Protocols and Routing
+    </p>
+
+    <p className="font-semibold text-lg z-10">Tecnológico Nacional de México</p>
+    <p className="italic z-10">Ciudad López Mateos, México</p>
+    <p className="italic z-10">Data Science Diploma (Apr 2024 - Sep 2024)</p>
+    <p className="z-10">
+      <strong>Skills:</strong> R, SQL, Python, Pandas, NumPy, Matplotlib, Scikit-learn
+    </p>
+  </div>
+</div>
+
 
           {/* Skills Section */}
           <div className="mt-6 z-10">
