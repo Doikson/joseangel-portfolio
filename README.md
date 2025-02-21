@@ -1,7 +1,7 @@
 # React Portfolio Project
 
 This is a personal portfolio project built using **React.js** and **Tailwind CSS**. The project showcases my work, skills, certifications, and the technologies I am passionate about. It serves as a base to display my experience and projects, with a focus on clean and responsive design.
-## [Try The Portfolio](https://doikson.github.io/joseangel-portfolio/)
+## [Live Version](https://doikson.github.io/joseangel-portfolio/)
 
 ## Technologies Used
 
