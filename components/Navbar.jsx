@@ -42,16 +42,16 @@ const Navbar = () => {
 
         <ul className="hidden md:flex">
           <li className={`p-4 text-white ${getHoverColor(pathname)}`}>
-            <Link href="/">Home</Link>
+            <Link href="./">Home</Link>
           </li>
           <li className={`p-4 text-white ${getHoverColor(pathname)}`}>
-            <Link href="/about">About</Link>
+            <Link href="./about">About</Link>
           </li>
           <li className={`p-4 text-white ${getHoverColor(pathname)}`}>
-            <Link href="/projects">Projects</Link>
+            <Link href="./projects">Projects</Link>
           </li>
           <li className={`p-4 text-white ${getHoverColor(pathname)}`}>
-            <Link href="/contact">Contact</Link>
+            <Link href="./contact">Contact</Link>
           </li>
           <li className="p-4">
             <a
@@ -73,16 +73,16 @@ const Navbar = () => {
           <h1 className="fixed left-5 text-3xl font-bold text-white">./~</h1>
           <ul className="uppercase p-10">
             <li className={`p-4 text-white ${getHoverColor(pathname)} border-b`} onClick={handleNav}>
-              <Link href="/">Home</Link>
+              <Link href="./">Home</Link>
             </li>
             <li className={`p-4 text-white ${getHoverColor(pathname)} border-b`} onClick={handleNav}>
-              <Link href="/about">About</Link>
+              <Link href="./about">About</Link>
             </li>
             <li className={`p-4 text-white ${getHoverColor(pathname)} border-b`} onClick={handleNav}>
-              <Link href="/projects">Projects</Link>
+              <Link href="./projects">Projects</Link>
             </li>
             <li className={`p-4 text-white ${getHoverColor(pathname)} border-b`} onClick={handleNav}>
-              <Link href="/contact">Contact</Link>
+              <Link href="./contact">Contact</Link>
             </li>
             <li className="p-4">
               <a
