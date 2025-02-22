@@ -77,7 +77,7 @@ export default function Home() {
         </a>
 
         <a
-          href="/Resume_JoseAngel.pdf"
+          href="./Resume_JoseAngel.pdf"
           download
           className="px-6 py-3 bg-gray-500 text-white rounded-lg text-lg font-semibold hover:scale-105 transition flex items-center gap-2"
         >
