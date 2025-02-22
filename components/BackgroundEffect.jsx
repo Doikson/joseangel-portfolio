@@ -31,10 +31,10 @@ const BackgroundEffect = () => {
     gradientColor = "rgba(255, 105, 180, 0.6), rgba(139, 0, 139, 0.8)";
   } else if (pathname === "/contact") {
     auroraAnimation = "bg-gradient-to-r from-orange-500 via-yellow-400 to-red-500 animate-aurora";
-    gradientColor = "rgba(255, 165, 0, 0.6), rgba(255, 69, 0, 0.8)";
+    gradientColor = "rgba(255, 165, 0, 0.6), rgba(165, 0, 0, 0.8)";
   } else if (pathname === "/404") {
     auroraAnimation = "bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 animate-aurora";
-    gradientColor = "rgba(50, 50, 50, 0.6), rgba(20, 20, 20, 0.8)";
+    gradientColor = "rgba(40, 40, 40, 0.7), rgba(10, 10, 10, 0.9)";;
   }
 
   return (
