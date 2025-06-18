@@ -155,22 +155,10 @@ const Projects = () => {
           </a>
         </div>
         <div className="flex justify-center gap-4 flex-wrap">
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center">
-            <SiFramer className="mr-2" />
-            Framer
-          </span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center">
-            <FaHtml5 className="mr-2" />
-            HTML
-          </span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center">
-            <FaCss3Alt className="mr-2" />
-            CSS
-          </span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center">
-            <FaJs className="mr-2" />
-            JavaScript
-          </span>
+          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><SiFramer className="mr-2" />Framer</span>
+          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
+          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
+          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
         </div>
       </div>
 
