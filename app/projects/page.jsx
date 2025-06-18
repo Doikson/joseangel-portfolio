@@ -167,6 +167,10 @@ const Projects = () => {
             <FaCss3Alt className="mr-2" />
             CSS
           </span>
+          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center">
+            <FaJs className="mr-2" />
+            JavaScript
+          </span>
         </div>
       </div>
 
