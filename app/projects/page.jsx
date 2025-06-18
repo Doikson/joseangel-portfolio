@@ -141,11 +141,11 @@ const Projects = () => {
       <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
         <h2 className="text-2xl font-semibold mb-2 text-center">Xury</h2>
         <p className="mb-4 text-center flex-grow">
-          Luxury goods website landing page created to enhance brand perception, integrating a premium aesthetic and modern layout.
+         Developed to build client trust, this website combines a premium aesthetic with a user-focused design, making it simple to schedule services and manage appointments efficiently.
         </p>
         <div className="flex justify-center gap-4 mb-4 border-b p-2">
           <a
-            href="https://xury.netlify.app"
+            href="https://xury.com.mx"
             target="_blank"
             rel="noopener noreferrer"
             className="text-purple-500 hover:text-purple-700 flex items-center"
