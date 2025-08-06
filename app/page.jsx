@@ -198,22 +198,7 @@ export default function Home() {
            Navigate through different sections to learn more about my journey, skills, and work.
          </p>
          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-           <Link href="/" className="group">
-             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
-               <div className="h-32 overflow-hidden">
-                 <img 
-                   src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=400" 
-                   alt="Home" 
-                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                 />
-               </div>
-               <div className="p-4">
-                 <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors">Home</h3>
-                 <p className="text-sm text-gray-400">Welcome page with overview of my skills and technologies</p>
-               </div>
-             </div>
-           </Link>
-           
+                      
            <Link href="/about" className="group">
              <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
                <div className="h-32 overflow-hidden">
