@@ -191,6 +191,80 @@ export default function Home() {
         </div>
       </ScrollAnimation>
 
+     <ScrollAnimation animationClass="animate-slide">
+       <div className="mt-8 w-full max-w-3xl bg-black bg-opacity-55 text-white rounded-xl shadow-lg p-6">
+         <h2 className="text-2xl font-bold mb-6 text-center">Explore My Portfolio</h2>
+         <p className="text-lg mb-6 text-center">
+           Navigate through different sections to learn more about my journey, skills, and work.
+         </p>
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+           <Link href="/" className="group">
+             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
+               <div className="h-32 overflow-hidden">
+                 <img 
+                   src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                   alt="Home" 
+                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                 />
+               </div>
+               <div className="p-4">
+                 <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors">Home</h3>
+                 <p className="text-sm text-gray-400">Welcome page with overview of my skills and technologies</p>
+               </div>
+             </div>
+           </Link>
+           
+           <Link href="/about" className="group">
+             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
+               <div className="h-32 overflow-hidden">
+                 <img 
+                   src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                   alt="About" 
+                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                 />
+               </div>
+               <div className="p-4">
+                 <h3 className="text-xl font-semibold mb-2 group-hover:text-green-400 transition-colors">About</h3>
+                 <p className="text-sm text-gray-400">Learn about my background, education, and experience</p>
+               </div>
+             </div>
+           </Link>
+           
+           <Link href="/projects" className="group">
+             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
+               <div className="h-32 overflow-hidden">
+                 <img 
+                   src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                   alt="Projects" 
+                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                 />
+               </div>
+               <div className="p-4">
+                 <h3 className="text-xl font-semibold mb-2 group-hover:text-orange-400 transition-colors">Projects</h3>
+                 <p className="text-sm text-gray-400">Explore my development projects and technical work</p>
+               </div>
+             </div>
+           </Link>
+           
+           <Link href="/contact" className="group">
+             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
+               <div className="h-32 overflow-hidden">
+                 <img 
+                   src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                   alt="Contact" 
+                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                 />
+               </div>
+               <div className="p-4">
+                 <h3 className="text-xl font-semibold mb-2 group-hover:text-purple-400 transition-colors">Contact</h3>
+                 <p className="text-sm text-gray-400">Get in touch and connect with me</p>
+               </div>
+             </div>
+           </Link>
+         </div>
+       </div>
+     </ScrollAnimation>
+
     </div>
   );
 }
