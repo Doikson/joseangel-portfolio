@@ -16,7 +16,7 @@ export default function ContactPage() {
               type="email"
               name="email"
               required
-              className="w-full p-2 mt-1 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 z-10"
+              className="w-full p-2 mt-1 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 z-10"
             />
           </label>
           <label className="block text-white z-10">
@@ -24,12 +24,12 @@ export default function ContactPage() {
             <textarea
               name="message"
               required
-              className="w-full p-2 mt-1 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 z-10 h-32 resize-none"
+              className="w-full p-2 mt-1 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 z-10 h-32 resize-none"
             ></textarea>
           </label>
           <button
             type="submit"
-            className="w-full p-3 bg-orange-500 text-white font-bold rounded-lg hover:bg-orange-600 transition z-10"
+            className="w-full p-3 bg-purple-500 text-white font-bold rounded-lg hover:bg-purple-600 transition z-10"
           >
             Send
           </button>
@@ -40,7 +40,7 @@ export default function ContactPage() {
           href="https://github.com/Doikson"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center space-x-2 hover:text-orange-500 transition z-10"
+          className="flex items-center space-x-2 hover:text-purple-500 transition z-10"
         >
           <FaGithub size={24} />
           <span>GitHub</span>
@@ -49,14 +49,14 @@ export default function ContactPage() {
           href="https://linkedin.com/in/joseangelcortes"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center space-x-2 hover:text-orange-500 transition z-10"
+          className="flex items-center space-x-2 hover:text-purple-500 transition z-10"
         >
           <FaLinkedin size={24} />
           <span>LinkedIn</span>
         </a>
         <a
           href="mailto:joseangelcortesbaillet@gmail.com"
-          className="flex items-center space-x-2 hover:text-orange-500 transition z-10"
+          className="flex items-center space-x-2 hover:text-purple-500 transition z-10"
         >
           <FaEnvelope size={24} />
           <span>Email</span>
