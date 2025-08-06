@@ -7,7 +7,14 @@ const Projects = () => {
 <div className="flex flex-wrap justify-center gap-x-8 gap-y-10 px-6 py-40">
 
       {/* Project 0 - My Portfolio */}
-      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
+      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[500px] flex flex-col hover:scale-105 transition-transform duration-300">
+        <div className="w-full h-40 mb-4 rounded-lg overflow-hidden">
+          <img 
+            src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=400" 
+            alt="Portfolio Preview" 
+            className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          />
+        </div>
         <h2 className="text-2xl font-semibold mb-2 text-center">My Portfolio</h2>
         <p className="mb-4 text-center flex-grow">
           Personal portfolio built to showcase my skills, projects, and contact information. Fully responsive and made with React.
@@ -32,7 +39,14 @@ const Projects = () => {
       </div>
 
       {/* Project 1 - InstaFollowListPy */}
-      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
+      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[500px] flex flex-col hover:scale-105 transition-transform duration-300">
+        <div className="w-full h-40 mb-4 rounded-lg overflow-hidden">
+          <img 
+            src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400" 
+            alt="Instagram Automation Preview" 
+            className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          />
+        </div>
         <h2 className="text-2xl font-semibold mb-2 text-center">InstaFollowListPy</h2>
         <p className="mb-4 text-center flex-grow">
           Automation of Instagram follower extraction, reducing manual analysis time by 90% using the Pandas library.
@@ -55,7 +69,14 @@ const Projects = () => {
       </div>
 
       {/* Project 2 - InstaFollowListJS */}
-      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
+      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[500px] flex flex-col hover:scale-105 transition-transform duration-300">
+        <div className="w-full h-40 mb-4 rounded-lg overflow-hidden">
+          <img 
+            src="https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=400" 
+            alt="Web Interface Preview" 
+            className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          />
+        </div>
         <h2 className="text-2xl font-semibold mb-2 text-center">InstaFollowListJS</h2>
         <p className="mb-4 text-center flex-grow">
           Development of interactive web interface made with JavaScript, HTML, and CSS to facilitate the use of the program, allowing a more accessible experience for non-technical users.
@@ -88,7 +109,14 @@ const Projects = () => {
       </div>
 
       {/* Project 3 - NUOBRA */}
-      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
+      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[500px] flex flex-col hover:scale-105 transition-transform duration-300">
+        <div className="w-full h-40 mb-4 rounded-lg overflow-hidden">
+          <img 
+            src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400" 
+            alt="NUOBRA Website Preview" 
+            className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          />
+        </div>
         <h2 className="text-2xl font-semibold mb-2 text-center">NUOBRA</h2>
         <p className="mb-4 text-center flex-grow">
           A high-performance landing page showcasing NUOBRA's projects, with custom code for enhanced interactivity and SEO optimization.
@@ -114,7 +142,14 @@ const Projects = () => {
       </div>
 
       {/* Project 4 - Real Rosario FC */}
-      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
+      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[500px] flex flex-col hover:scale-105 transition-transform duration-300">
+        <div className="w-full h-40 mb-4 rounded-lg overflow-hidden">
+          <img 
+            src="https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg?auto=compress&cs=tinysrgb&w=400" 
+            alt="Football Club Website Preview" 
+            className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          />
+        </div>
         <h2 className="text-2xl font-semibold mb-2 text-center">Real Rosario FC</h2>
         <p className="mb-4 text-center flex-grow">
           Landing page for a youth football club (U17) that highlights the team's philosophy, training, and achievements.
@@ -138,7 +173,14 @@ const Projects = () => {
         </div>
       </div>
       {/* Project 5 - Xury */}
-      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[400px] flex flex-col hover:scale-105 transition-transform duration-300">
+      <div className="bg-black bg-opacity-55 p-6 rounded-lg text-white z-10 w-80 h-[500px] flex flex-col hover:scale-105 transition-transform duration-300">
+        <div className="w-full h-40 mb-4 rounded-lg overflow-hidden">
+          <img 
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400" 
+            alt="Xury Website Preview" 
+            className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          />
+        </div>
         <h2 className="text-2xl font-semibold mb-2 text-center">Xury</h2>
         <p className="mb-4 text-center flex-grow">
          Developed to build client trust, this website combines a premium aesthetic with a user-focused design, making it simple to schedule services and manage appointments efficiently.
