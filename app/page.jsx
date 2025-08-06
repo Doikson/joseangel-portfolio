@@ -235,7 +235,7 @@ export default function Home() {
              <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
                <div className="h-32 overflow-hidden">
                  <img 
-                   src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLppoEUkQccaF2ahd3LZ5BBI0BC83Z_uBt9A&s" 
                    alt="Contact" 
                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                  />
