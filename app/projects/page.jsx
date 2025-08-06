@@ -24,17 +24,17 @@ const Projects = () => {
             href="https://github.com/Doikson/joseangel-portfolio"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-500 hover:text-purple-700 flex items-center"
+            className="text-orange-500 hover:text-orange-700 flex items-center"
           >
             <FaGithub className="mr-2" />
             GitHub Repo
           </a>
         </div>
         <div className="flex justify-center gap-4 flex-wrap">
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaReact className="mr-2" />React</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaReact className="mr-2" />React</span>
         </div>
       </div>
 
@@ -56,15 +56,15 @@ const Projects = () => {
             href="https://github.com/Doikson/InstaFollowListPy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-500 hover:text-purple-700 flex items-center"
+            className="text-orange-500 hover:text-orange-700 flex items-center"
           >
             <FaGithub className="mr-2" />
             GitHub Repo
           </a>
         </div>
         <div className="flex justify-center gap-4 flex-wrap">
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaPython className="mr-2" />Python</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><SiPandas className="mr-2" />Pandas</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaPython className="mr-2" />Python</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><SiPandas className="mr-2" />Pandas</span>
         </div>
       </div>
 
@@ -86,7 +86,7 @@ const Projects = () => {
             href="https://github.com/Doikson/InstaFollowListJS"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-500 hover:text-purple-700 flex items-center"
+            className="text-orange-500 hover:text-orange-700 flex items-center"
           >
             <FaGithub className="mr-2" />
             GitHub Repo
@@ -95,16 +95,16 @@ const Projects = () => {
             href="https://doikson.github.io/InstaFollowListJS/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-500 hover:text-purple-700 flex items-center"
+            className="text-orange-500 hover:text-orange-700 flex items-center"
           >
             <FaExternalLinkAlt className="mr-2" />
             Live View
           </a>
         </div>
         <div className="flex justify-center gap-4 flex-wrap">
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
         </div>
       </div>
 
@@ -126,18 +126,18 @@ const Projects = () => {
             href="https://nuobra.com.mx"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-500 hover:text-purple-700 flex items-center"
+            className="text-orange-500 hover:text-orange-700 flex items-center"
           >
             <FaExternalLinkAlt className="mr-2" />
             Live Website
           </a>
         </div>
         <div className="flex justify-center gap-4 flex-wrap">
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaWordpress className="mr-2" />WordPress</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><SiYoast className="mr-2" />Yoast SEO</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaWordpress className="mr-2" />WordPress</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><SiYoast className="mr-2" />Yoast SEO</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
         </div>
       </div>
 
@@ -159,17 +159,17 @@ const Projects = () => {
             href="https://realrosariofc.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-500 hover:text-purple-700 flex items-center"
+            className="text-orange-500 hover:text-orange-700 flex items-center"
           >
             <FaExternalLinkAlt className="mr-2" />
             Live View
           </a>
         </div>
         <div className="flex justify-center gap-4 flex-wrap">
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><SiFramer className="mr-2" />Framer</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><SiFramer className="mr-2" />Framer</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
         </div>
       </div>
       {/* Project 5 - Xury */}
@@ -190,17 +190,17 @@ const Projects = () => {
             href="https://xury.com.mx"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-500 hover:text-purple-700 flex items-center"
+            className="text-orange-500 hover:text-orange-700 flex items-center"
           >
             <FaExternalLinkAlt className="mr-2" />
             Live Website
           </a>
         </div>
         <div className="flex justify-center gap-4 flex-wrap">
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><SiFramer className="mr-2" />Framer</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
-          <span className="bg-purple-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><SiFramer className="mr-2" />Framer</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaHtml5 className="mr-2" />HTML</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaCss3Alt className="mr-2" />CSS</span>
+          <span className="bg-orange-500 text-white py-1 px-3 rounded-xl flex items-center"><FaJs className="mr-2" />JavaScript</span>
         </div>
       </div>
 

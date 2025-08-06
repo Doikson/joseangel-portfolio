@@ -27,11 +27,11 @@ const BackgroundEffect = () => {
     auroraAnimation = "bg-gradient-to-r from-green-500 via-teal-400 to-blue-500 animate-aurora";
     gradientColor = "rgba(173, 255, 47, 0.6), rgba(34, 139, 34, 0.8)";
   } else if (pathname === "/projects") {
-    auroraAnimation = "bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 animate-aurora";
-    gradientColor = "rgba(255, 105, 180, 0.6), rgba(139, 0, 139, 0.8)";
-  } else if (pathname === "/contact") {
     auroraAnimation = "bg-gradient-to-r from-orange-500 via-yellow-400 to-red-500 animate-aurora";
     gradientColor = "rgba(255, 165, 0, 0.6), rgba(165, 0, 0, 0.8)";
+  } else if (pathname === "/contact") {
+    auroraAnimation = "bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 animate-aurora";
+    gradientColor = "rgba(255, 105, 180, 0.6), rgba(139, 0, 139, 0.8)";
   } else if (pathname === "/404") {
     auroraAnimation = "bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 animate-aurora";
     gradientColor = "rgba(40, 40, 40, 0.7), rgba(10, 10, 10, 0.9)";;

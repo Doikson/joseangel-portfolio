@@ -20,9 +20,9 @@ const Navbar = () => {
       case '/about':
         return 'hover:text-green-500'; // Green for /about
       case '/projects':
-        return 'hover:text-purple-500'; // Purple for /projects
+        return 'hover:text-orange-500'; // Orange for /projects
       case '/contact':
-        return 'hover:text-orange-500'; // Orange for /contact
+        return 'hover:text-purple-500'; // Purple for /contact
       case '/404':
         return 'hover:text-gray-500'; // Gray for /404
       case '/':
