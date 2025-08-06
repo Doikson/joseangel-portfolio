@@ -197,7 +197,7 @@ export default function Home() {
          <p className="text-lg mb-6 text-center">
            Navigate through different sections to learn more about my journey, skills, and work.
          </p>
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+         <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                       
            <Link href="/about" className="group">
              <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
